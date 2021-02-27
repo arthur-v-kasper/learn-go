@@ -8,6 +8,7 @@ const (
 	ErrorWordExists     = DictionaryErr("cannot add word because it already exists")
 	ErrWordDoesNotExist = DictionaryErr("cannot update word because it does not exist")
 	ErrorUpdate = DictionaryErr("could not update word that does not exist")
+	ErrDeleteWord       = DictionaryErr("cannot delete word because it does not exist")
 )
 
 func (e DictionaryErr) Error() string {
