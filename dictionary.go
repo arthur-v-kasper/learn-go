@@ -7,7 +7,7 @@ const (
 	ErrorNotFound       = DictionaryErr("could not find the word you were looking for")
 	ErrorWordExists     = DictionaryErr("cannot add word because it already exists")
 	ErrWordDoesNotExist = DictionaryErr("cannot update word because it does not exist")
-	ErrorUpdate = DictionaryErr("could not update word that does not exist")
+	ErrorUpdate         = DictionaryErr("could not update word that does not exist bla bla")
 	ErrDeleteWord       = DictionaryErr("cannot delete word because it does not exist")
 )
 
